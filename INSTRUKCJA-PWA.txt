@@ -1,0 +1,16 @@
+GTA GARAGE MANAGER — WERSJA PWA 0.2
+
+Aplikacja nie wymaga serwera działającego stale, ale do instalacji na PC i telefonie musi zostać JEDNORAZOWO opublikowana na hostingu HTTPS (np. GitHub Pages).
+
+1. Utwórz repozytorium na GitHub i wgraj pliki z tego folderu do katalogu głównego repozytorium.
+2. Settings -> Pages -> Deploy from a branch -> main -> / (root) -> Save.
+3. Otwórz adres HTTPS wyświetlony w GitHub Pages.
+4. Windows Chrome/Edge: menu przeglądarki -> Zainstaluj aplikację / Apps -> Install this site as an app. Utwórz skrót na pulpicie.
+5. Android Chrome: menu -> Zainstaluj aplikację / Dodaj do ekranu głównego.
+6. Otwieraj z ikony. Po pierwszym załadowaniu aplikacja działa również offline.
+
+UWAGA: Każde urządzenie ma ODRĘBNĄ kolekcję. Do przenoszenia danych użyj Eksport/Import. Zmiana adresu strony (domeny lub ścieżki) może zmienić dostęp do lokalnych danych. Nie czyść danych witryny bez kopii zapasowej.
+
+UWAGA PRYWATNOŚĆ: GitHub Pages w darmowym publicznym repozytorium udostępnia publicznie pliki aplikacji, ale NIE prywatne dane IndexedDB. Nie dodawaj plików kopii zapasowych ani własnych zdjęć do repozytorium.
+
+Pliki otwierane bezpośrednio przez file:// nie zapewniają instalacji PWA.
